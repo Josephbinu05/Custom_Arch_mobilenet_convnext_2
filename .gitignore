@@ -1,0 +1,56 @@
+# Datasets and downloaded data
+data/
+plant_dataset/
+datasets/
+*.zip
+*.tar
+*.tar.gz
+
+# Model checkpoints and experiment artifacts
+*.pt
+*.pth
+*.ckpt
+checkpoints/
+runs/
+wandb/
+lightning_logs/
+mlruns/
+optuna*.db
+*.sqlite
+*.sqlite3
+
+# Python and Jupyter
+__pycache__/
+*.py[cod]
+*.pyo
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Environments and secrets
+.venv/
+venv/
+env/
+ENV/
+.env
+.env.*
+!.env.example
+
+# Editors and operating systems
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.log

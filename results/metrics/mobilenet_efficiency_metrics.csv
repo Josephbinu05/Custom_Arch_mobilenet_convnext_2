@@ -1,0 +1,2 @@
+Model,Accuracy,Precision,Recall,F1-Score,Parameters (M),FLOPs (GFLOPs),Inference Time (s),Model Size (MB),Accuracy / Million Params,Accuracy / GFLOP
+MobileNetV2 (Baseline),0.98,0.980643539467069,0.98,0.979854443904063,2.227715,0.312917056,0.010405597686767578,8.72840404510498,0.43991264591745355,3.1318203377191427
